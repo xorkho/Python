@@ -29,4 +29,4 @@ if score==0:
 elif score==1:
     print("You Won")
 elif score==-1:
-    print("You Loose")
+    print("You Loose")     
