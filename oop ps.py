@@ -144,30 +144,30 @@
 # Create Account class with 2 attributes - balance & account no.
 # Create methods for debit, credit & printing the balance.
 
-class Account:
+# class Account:
 
-    def __init__(self,Acc_No,Acc_Balance):
-        self.Acc_No=Acc_No
-        self.Acc_Balance=Acc_Balance
+#     def __init__(self,Acc_No,Acc_Balance):
+#         self.Acc_No=Acc_No
+#         self.Acc_Balance=Acc_Balance
 
-    def Debit(self,Amount):
-        self.Amount=Amount
-        self.Acc_Balance-=Amount
-        print(f"{Amount}RS is debited from your account")
+#     def Debit(self,Amount):
+#         self.Amount=Amount
+#         self.Acc_Balance-=Amount
+#         print(f"{Amount}RS is debited from your account")
 
-    def Credit(self,Amount):
-        self.Amount=Amount
-        self.Acc_Balance+=Amount
-        print(f"{Amount}RS is credited on your account")
+#     def Credit(self,Amount):
+#         self.Amount=Amount
+#         self.Acc_Balance+=Amount
+#         print(f"{Amount}RS is credited on your account")
 
-    def get_balance(self):
-        print(f"Total amount in your account is {self.Acc_Balance}")
+#     def get_balance(self):
+#         print(f"Total amount in your account is {self.Acc_Balance}")
     
-c1=Account(1234,0)
-c1.Debit(10000)
-c1.get_balance()
-c1.Credit(20000)
-c1.get_balance() 
+# c1=Account(1234,50000)
+# c1.Debit(10000)
+# c1.get_balance()
+# c1.Credit(20000)
+# c1.get_balance() 
 
 
 # private method and their implementation
